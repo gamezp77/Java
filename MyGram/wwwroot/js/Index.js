@@ -10,8 +10,6 @@ var SecondSpan = document.getElementById("SecondSpan");
 var ThirdSpan = document.getElementById("ThirdSpan");
 var FourhtSpan = document.getElementById("FourthSpan");
 
-
-console.log("test");
 var x;/*undefined*/
 var y = 13; /*number*/
 var z = "Stirng"; /*string*/
@@ -28,3 +26,24 @@ console.log(string2);
 console.log(exp);
 console.log(myBool);
 console.log(myNull);
+
+//console.log(typeof x);
+//console.log(typeof y);
+//console.log(typeof z);
+//console.log(typeof string2);
+//console.log(typeof decimal);
+//console.log(typeof exp);
+//console.log(typeof myBool);
+//console.log(typeof myNull);
+
+var x = 10;
+var y = 10;
+var z = x + y;
+var z1 = x - y;
+var z2 = x / y;
+var z3 = x * y;
+
+console.log(z);
+console.log(z1);
+console.log(z2);
+console.log(z3);
