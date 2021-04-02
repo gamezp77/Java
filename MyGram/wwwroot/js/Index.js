@@ -11,11 +11,20 @@ var ThirdSpan = document.getElementById("ThirdSpan");
 var FourhtSpan = document.getElementById("FourthSpan");
 
 
-//var newSpan = document.createElement("span");
-//newSpan.setAttribute("id", "SecondSpan");
+console.log("test");
+var x;/*undefined*/
+var y = 13; /*number*/
+var z = "Stirng"; /*string*/
+var string2 = 'Second String'; /*string*/
+var decimal = 3.14; /*decimal*/
+var exp = 3e2; /*is like having (3 * 100) or (3*10^2)*/
+var myBool = true; /* boolean */
+var myNull = null; /*null*/
 
-//newSpan.innerHTML = "This is a text";
-//var newText = document.createTextNode("This is a text");
-//newSpan.appendChild(newText);
-//div[0].insertBefore(newSpan, firstSpan);
-
+console.log(x);
+console.log(y);
+console.log(z);
+console.log(string2);
+console.log(exp);
+console.log(myBool);
+console.log(myNull);
