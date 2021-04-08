@@ -1,31 +1,72 @@
-﻿var btn = document.createElement("Button");
+﻿
+
+var container = document.getElementById("MainContainer");
+var span = document.createElement("span");
+span.innerHTML = "My Gram &nbsp;&nbsp;";
+
+container.appendChild(span);
+
+var btn = document.createElement("Button");
 btn.innerHTML = "Log In";
 document.body.appendChild(btn);
+
+container.appendChild(btn);
+document.write('&nbsp;&nbsp;&nbsp;');
+
 var btn = document.createElement("Button");
 btn.innerHTML = "Sing Up";
 document.body.appendChild(btn);
 
+container.appendChild(btn);
 
-var SecondSpan = document.getElementById("SecondSpan");
-var ThirdSpan = document.getElementById("ThirdSpan");
-var FourhtSpan = document.getElementById("FourthSpan");
+document.write('</br></br>');
 
-var x;/*undefined*/
-var y = 13; /*number*/
-var z = "Stirng"; /*string*/
-var string2 = 'Second String'; /*string*/
-var decimal = 3.14; /*decimal*/
-var exp = 3e2; /*is like having (3 * 100) or (3*10^2)*/
-var myBool = true; /* boolean */
-var myNull = null; /*null*/
+var container = document.getElementById("MainContainer");
+var newSpan = document.createElement("span");
+newSpan.innerHTML = "Image1  Image2  Image3  Image4 Image5 </br></br>";
 
-console.log(x);
-console.log(y);
-console.log(z);
-console.log(string2);
-console.log(exp);
-console.log(myBool);
-console.log(myNull);
+container.appendChild(newSpan);
+
+
+document.write('</br>');
+
+
+var container = document.getElementById("MainContainer");
+var newSpan2 = document.createElement("span");
+newSpan2.innerHTML = "About Blog Jobs Help";
+
+container.appendChild(newSpan2);
+document.write('</br>');
+
+var container = document.getElementById("MainContainer");
+var newSpan3 = document.createElement("span");
+newSpan3.innerHTML = "English 2021 MyGram";
+
+container.appendChild(newSpan3);
+
+
+
+
+
+
+
+
+
+
+//var x;/*undefined*/
+//var y = 13; /*number*/
+//var string2 = 'Second String'; /*string*/
+//var decimal = 3.14; /*decimal*/
+//var exp = 3e2; /*is like having (3 * 100) or (3*10^2)*/
+//var myBool = true; /* boolean */
+//var myNull = null; /*null*/
+
+//console.log(x);
+//console.log(y);
+//console.log(string2);
+//console.log(exp);
+//console.log(myBool);
+//console.log(myNull);
 
 //console.log(typeof x);
 //console.log(typeof y);
@@ -36,14 +77,14 @@ console.log(myNull);
 //console.log(typeof myBool);
 //console.log(typeof myNull);
 
-var x = 10;
-var y = 10;
-var z = x + y;
-var z1 = x - y;
-var z2 = x / y;
-var z3 = x * y;
+//var x = 10;
+//var y = 10;
+//var z = x + y;
+//var z1 = x - y;
+//var z2 = x / y;
+//var z3 = x * y;
 
-console.log(z);
-console.log(z1);
-console.log(z2);
-console.log(z3);
+//console.log(z);
+//console.log(z1);
+//console.log(z2);
+//console.log(z3);
