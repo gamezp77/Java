@@ -349,3 +349,4 @@
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.dll
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.pdb
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.genruntimeconfig.cache
+/Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.csprojAssemblyReference.cache

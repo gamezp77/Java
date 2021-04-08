@@ -88,3 +88,15 @@ container.appendChild(newSpan3);
 //console.log(z1);
 //console.log(z2);
 //console.log(z3);
+
+var Micheangelo = true;
+var Leonardo = true;
+var Donatello = true;
+var Raphael = true;
+var pizza = Micheangelo && Leonardo && Donatello && Raphael;
+
+
+function ninjas() {
+    console.log(pizza);
+}
+ninjas();
