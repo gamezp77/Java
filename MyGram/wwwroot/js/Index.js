@@ -100,3 +100,10 @@ function ninjas() {
     console.log(pizza);
 }
 ninjas();
+
+var g = '     "Hello, this is a string."   ';
+var e = g.trim();
+
+
+console.log(g);
+console.log(e);    
