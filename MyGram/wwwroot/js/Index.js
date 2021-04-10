@@ -89,21 +89,31 @@ container.appendChild(newSpan3);
 //console.log(z2);
 //console.log(z3);
 
-var Micheangelo = true;
-var Leonardo = true;
-var Donatello = true;
-var Raphael = true;
-var pizza = Micheangelo && Leonardo && Donatello && Raphael;
+//var Micheangelo = true;
+//var Leonardo = true;
+//var Donatello = true;
+//var Raphael = true;
+//var pizza = Micheangelo && Leonardo && Donatello && Raphael;
 
 
-function ninjas() {
-    console.log(pizza);
-}
-ninjas();
+//function ninjas() {
+  //  console.log(pizza);
+//}
+//ninjas();
 
-var g = '     "Hello, this is a string."   ';
-var e = g.trim();
+//var g = '     "Hello, this is a string."   ';
+//var e = g.trim();
 
 
-console.log(g);
-console.log(e);    
+//console.log(g);
+//console.log(e);
+
+document.write('</br>');
+
+var date = new Date();
+document.write(date);
+
+document.write('</br>');
+
+
+document.write(date.toLocaleDateString("ja-JP"));
