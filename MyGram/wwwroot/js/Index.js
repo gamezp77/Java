@@ -117,3 +117,5 @@ document.write('</br>');
 
 
 document.write(date.toLocaleDateString("ja-JP"));
+
+
