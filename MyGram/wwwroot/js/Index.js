@@ -101,21 +101,22 @@ container.appendChild(newSpan3);
 //}
 //ninjas();
 
-//var g = '     "Hello, this is a string."   ';
-//var e = g.trim();
+var g = '     "Hello, this is a string."   ';
+var e = g.substring(4, 8);
+var h = g.trim();
 
 
-//console.log(g);
-//console.log(e);
+console.log(g);
+console.log(e);
+console.log(h);
+//document.write('</br>');
 
-document.write('</br>');
+//var date = new Date();
+//document.write(date);
 
-var date = new Date();
-document.write(date);
-
-document.write('</br>');
+//document.write('</br>');
 
 
-document.write(date.toLocaleDateString("ja-JP"));
+//document.write(date.toLocaleDateString("ja-JP"));
 
 

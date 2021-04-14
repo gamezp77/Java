@@ -7,8 +7,7 @@
       <File FileName="MyGram/Views/_ViewStart.cshtml" />
       <File FileName="MyGram/Views/_ViewImports.cshtml" />
       <File FileName="MyGram/Views/Shared/_ValidationScriptsPartial.cshtml" />
-      <File FileName="MyGram/Views/Shared/Error.cshtml" />
-      <File FileName="MyGram/wwwroot/js/Index.js" Line="122" Column="1" />
+      <File FileName="MyGram/wwwroot/js/Index.js" Line="105" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +19,9 @@
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="js" expanded="True" />
+                <Node name="js" expanded="True">
+                  <Node name="Index.js" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
