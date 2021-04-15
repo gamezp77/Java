@@ -101,22 +101,39 @@ container.appendChild(newSpan3);
 //}
 //ninjas();
 
-var g = '     "Hello, this is a string."   ';
-var e = g.substring(4, 8);
-var h = g.trim();
+//var g = '     "Hello, this is a string."   ';
+//var e = g.substring(4, 8);
+//var h = g.trim();
+
+//console.log(g);
+//console.log(e);
+//console.log(h);
+
+"use strict";
+
+document.write('</br>');
+var d = new Date(); 
 
 
-console.log(g);
-console.log(e);
-console.log(h);
-//document.write('</br>');
+document.write((d.getMonth() + 1).toString().padStart(2, "0") + "/" +
+d.getMonth().toString().padStart(2, "0") + "/" +
+d.getFullYear());
 
-//var date = new Date();
-//document.write(date);
+document.write('</br>');
 
-//document.write('</br>');
+document.write(d.toLocaleString("ja-JP"));
 
 
-//document.write(date.toLocaleDateString("ja-JP"));
+
+
+
+
+
+
+
+
+
+
+
 
 
