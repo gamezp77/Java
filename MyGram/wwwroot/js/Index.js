@@ -28,6 +28,11 @@ var td = null;
 var imageSpan = null;
 var counter = 0;
 
+var image = new Image();
+image.imageName = "Image"; 
+image.imageId = 1;
+image.imagePath = "Any path";
+
 
 for (var i = 1; i <= 25; i++) {
 
@@ -40,7 +45,7 @@ for (var i = 1; i <= 25; i++) {
         
         td = document.createElement("td");
         imageSpan = document.createElement("span");
-        imageSpan.innerHTML = "Image  " + i;
+        imageSpan.innerHTML = image.imageName+ i;
    
 
     td.appendChild(imageSpan);
