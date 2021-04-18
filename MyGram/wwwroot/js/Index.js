@@ -13,7 +13,11 @@ div.appendChild(loginButton);
 var signUpButton =
     document.createElement("button");
 signUpButton.innerHTML = "Sign Up";
-div.appendChild(signUpButton);
+var a = document.createElement("a");
+a.setAttribute("href", "Home/Register");
+a.appendChild(signUpButton);
+
+div.appendChild(a);
 
 var lineBreak = document.createElement("br");
 div.appendChild(lineBreak);
