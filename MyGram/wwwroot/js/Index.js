@@ -131,8 +131,25 @@ gramSpan.innerHTML = "  Gram  ";
 
 div.appendChild(gramSpan);
 
+var lineBreak = document.createElement("br");
+div.appendChild(lineBreak);
+
+var lineBreak = document.createElement("br");
+div.appendChild(lineBreak);
 
 
+var firstDate = new Date(2016,9,30);
+var secondDate = new Date(1996,6,4);
+
+if (firstDate > secondDate) {
+    document.write("First date is greater");
+}
+else if (firstDate == seocondDate) {
+    document.write("The two dates are equal");
+}
+else {
+    document.write("The second date is greater");
+}
 
 
 
