@@ -55,7 +55,8 @@ for (var i = 0; i < 25; i++) {
     }
         
         td = document.createElement("td");
-        imageSpan = document.createElement("span");
+    imageSpan = document.createElement("span");
+    imageSpan.className = "ImagesClass";
         imageSpan.innerHTML = image.imageName;
    
 
@@ -65,11 +66,22 @@ for (var i = 0; i < 25; i++) {
 
     counter++;
 }
+
+
 tbody.appendChild(trow);
 
 table.appendChild(tbody);
 
 div.appendChild(table);
+
+var imageClassList = document.getElementsByClassName("ImagesClass");
+for (var x = 0; x < 25; x++) {
+    imageClassList[x].onclick = function()  {
+        alert("You have clicked on an image");
+    }
+}
+
+
 
 var lineBreak = document.createElement("br");
 div.appendChild(lineBreak);
