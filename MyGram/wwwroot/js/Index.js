@@ -150,18 +150,39 @@ var lineBreak = document.createElement("br");
 div.appendChild(lineBreak);
 
 
-var firstDate = new Date(2016,9,30);
-var secondDate = new Date(1996,6,4);
+var divThemeContainer = document.getElementById("ThemeContainer");
+var select = document.createElement("select");
+var option = document.createElement("option");
+option.innerHTML = "Light Theme";
+select.appendChild(option);
 
-if (firstDate > secondDate) {
-    document.write("First date is greater");
+option = document.createElement("option");
+option.innerHTML = "Dark Theme";
+select.appendChild(option);
+divThemeContainer.appendChild(select);
+
+var span = document.createElement("span");
+span.innerHTML = "Change Theme:";
+divThemeContainer.appendChild(span);
+
+select.onchange = function () {
+    alert("You have changed the theme");
 }
-else if (firstDate == seocondDate) {
-    document.write("The two dates are equal");
-}
-else {
-    document.write("The second date is greater");
-}
+
+
+
+//var firstDate = new Date(2016,9,30);
+//var secondDate = new Date(1996,6,4);
+
+//if (firstDate > secondDate) {
+//    document.write("First date is greater");
+//}
+//else if (firstDate == seocondDate) {
+//    document.write("The two dates are equal");
+//}
+//else {
+//    document.write("The second date is greater");
+//}
 
 
 

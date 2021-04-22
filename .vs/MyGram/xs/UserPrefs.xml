@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{DEDF0422-A6E6-47FD-A320-E91170AED465}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="MyGram/wwwroot/js/Index.js">
     <Files>
-      <File FileName="MyGram/wwwroot/js/Index.js" Line="82" Column="2" />
-      <File FileName="MyGram/wwwroot/js/Objects.js" Line="1" Column="1" />
-      <File FileName="MyGram/Views/Home/Index.cshtml" />
-      <File FileName="MyGram/Views/Home/Register.cshtml" Line="7" Column="1" />
+      <File FileName="MyGram/wwwroot/js/Index.js" Line="159" Column="36" />
+      <File FileName="MyGram/wwwroot/js/Objects.js" />
+      <File FileName="MyGram/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="MyGram/Views/Home/Register.cshtml" />
       <File FileName="MyGram/Controllers/HomeController.cs" />
-      <File FileName="MyGram/Views/Shared/_Layout.cshtml" />
+      <File FileName="MyGram/Views/Shared/_Layout.cshtml" Line="19" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
