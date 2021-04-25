@@ -5,16 +5,19 @@ var div = document.getElementById("MainContainer");
 
 div.appendChild(span);
 
+var a = document.createElement("a");
+a.setAttribute("Home/LogUser");
 var loginButton =
     document.createElement("button");
 loginButton.innerHTML = "Log In";
-div.appendChild(loginButton);
+a.appendChild(loginButton);
+div.appendChild(a);
 
 var signUpButton =
     document.createElement("button");
 signUpButton.innerHTML = "Sign Up";
-var a = document.createElement("a");
 a.setAttribute("href", "Home/Register");
+a.appendChild(loginButton);
 a.appendChild(signUpButton);
 
 div.appendChild(a);

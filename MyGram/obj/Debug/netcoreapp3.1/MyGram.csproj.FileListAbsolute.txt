@@ -322,7 +322,6 @@
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/bin/Debug/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/bin/Debug/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/bin/Debug/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
-/Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.csprojAssemblyReference.cache
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.AssemblyInfoInputs.cache
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.AssemblyInfo.cs
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.csproj.CoreCompileInputs.cache
@@ -337,6 +336,7 @@
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.TagHelpers.output.cache
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.RazorCoreGenerate.cache
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/Razor/Views/Home/LogUser.cshtml.g.cs
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/Razor/Views/Home/Register.cshtml.g.cs
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
@@ -351,3 +351,4 @@
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.dll
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.pdb
 /Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.genruntimeconfig.cache
+/Users/gamezjr/Desktop/Java/MyGram/MyGram/obj/Debug/netcoreapp3.1/MyGram.csprojAssemblyReference.cache

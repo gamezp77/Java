@@ -31,6 +31,11 @@ namespace MyGram.Controllers
         {
             return View();
         }
+        public IActionResult LogUser()
+        {
+            return View();
+        }
+
         public IActionResult LogIn()
         {
             return View();
