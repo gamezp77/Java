@@ -1,14 +1,16 @@
 ﻿<Properties StartupConfiguration="{DEDF0422-A6E6-47FD-A320-E91170AED465}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MyGram/Views/Home/LogUser.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyGram/wwwroot/js/Index.js">
     <Files>
       <File FileName="MyGram/Views/Shared/_Layout.cshtml" Line="1" Column="1" IsPinned="True" />
-      <File FileName="MyGram/wwwroot/js/Index.js" Line="9" Column="24" />
-      <File FileName="MyGram/wwwroot/js/Objects.js" />
-      <File FileName="MyGram/Views/Home/Index.cshtml" />
-      <File FileName="MyGram/Views/Home/Register.cshtml" />
-      <File FileName="MyGram/Controllers/HomeController.cs" Line="2" Column="1" />
-      <File FileName="MyGram/Views/Home/Privacy.cshtml" />
-      <File FileName="MyGram/Views/Home/LogUser.cshtml" Line="1" Column="1" />
+      <File FileName="MyGram/wwwroot/js/Index.js" Line="20" Column="37" IsPinned="True" />
+      <File FileName="MyGram/wwwroot/js/Objects.js" Line="1" Column="1" />
+      <File FileName="MyGram/Views/Home/Index.cshtml" Line="11" Column="26" />
+      <File FileName="MyGram/Views/Home/Register.cshtml" Line="1" Column="1" />
+      <File FileName="MyGram/Controllers/HomeController.cs" Line="44" Column="10" />
+      <File FileName="MyGram/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="MyGram/Views/Home/LogUser.cshtml" Line="20" Column="17" />
+      <File FileName="MyGram/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="MyGram/Views/_ViewImports.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,12 +19,12 @@
             <Node name="MyGram" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="LogUser.cshtml" selected="True" />
-                </Node>
+                <Node name="Home" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="js" expanded="True" />
+                <Node name="js" expanded="True">
+                  <Node name="Index.js" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

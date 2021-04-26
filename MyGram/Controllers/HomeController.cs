@@ -27,18 +27,20 @@ namespace MyGram.Controllers
         {
             return View();
         }
+        
         public IActionResult Register()
         {
             return View();
         }
+
         public IActionResult LogUser()
         {
             return View();
         }
-
-        public IActionResult LogIn()
+        public IActionResult LogIn(string User, string Password)
         {
-            return View();
+            string result = $"User is: {User} from form and password is:{Password} from form";
+            return Content(result);
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
