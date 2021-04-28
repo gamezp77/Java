@@ -14,6 +14,7 @@ loginButton.innerHTML = "Log In";
 a.appendChild(loginButton);
 div.appendChild(a);
 
+
 var signUpButton =
     document.createElement("button");
 signUpButton.innerHTML = "Sign Up";
@@ -44,7 +45,7 @@ for (var i = 0; i < 25; i++) {
     image = new Image();
     image.imageName = "Image " + (i + 1);
     image.imageId = (i + 1);
-    image.imagePath = "";
+    image.imagePath = "Any path";
 
     imageList.push(image);
 

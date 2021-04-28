@@ -37,10 +37,13 @@ namespace MyGram.Controllers
         {
             return View();
         }
-        public IActionResult LogIn(string User, string Password)
+        public IActionResult LogIn([FromBody] UserLogin user)
+
+
         {
-            string result = $"User is: {User} from form and password is:{Password} from form";
-            return Content(result);
+            return Content(user.ToString());
+        
+         
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
