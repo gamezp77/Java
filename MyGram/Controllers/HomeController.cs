@@ -42,10 +42,17 @@ namespace MyGram.Controllers
 
         {
             return Content(user.ToString());
-        
-         
         }
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+
+            public IActionResult Image([FromBody] Images images)
+
+
+            {
+                return Content(images.ToString());
+
+
+            }
+            [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

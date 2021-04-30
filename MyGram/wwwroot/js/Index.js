@@ -62,7 +62,8 @@ for (var i = 0; i < 25; i++) {
         td = document.createElement("td");
     imageSpan = document.createElement("span");
     imageSpan.className = "ImagesClass";
-        imageSpan.innerHTML = image.imageName;
+    imageSpan.setAttribute("data-image", JSON.stringify(image));
+    imageSpan.innerHTML = image.imageName;
    
 
     td.appendChild(imageSpan);
@@ -80,10 +81,22 @@ table.appendChild(tbody);
 div.appendChild(table);
 
 var imageClassList = document.getElementsByClassName("ImagesClass");
+var image = null;
+
 for (var x = 0; x < 25; x++) {
-    imageClassList[x].onclick = function()  {
-        alert("You have clicked on an image");
-    }
+    imageClassList[x].onclick = function () {
+        image = this.getAttribute("data-image");
+
+        fetch('/Home/Image', {
+            method: 'POST',
+            cache: 'no-cache',
+            headers: {
+                'Content-Type': 'application/json; charset=UTF-8'
+            },
+            body: image
+        }).then(response => response.text())
+          .then(data => alert(data));
+     }
 }
 
 

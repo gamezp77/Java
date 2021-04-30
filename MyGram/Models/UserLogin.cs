@@ -20,3 +20,5 @@ namespace MyGram.Models
         }
     }
 }
+
+//must create one for images
