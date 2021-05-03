@@ -19,6 +19,7 @@ var input = document.createElement("input");
 
 input.setAttribute("type", "text");
 input.setAttribute("palceholder", "Add your First Name");
+input.setAttribute("id", "FirstName");
 
 td.appendChild(input);
 tr.appendChild(td);
@@ -38,6 +39,7 @@ input = document.createElement("input");
 
 input.setAttribute("type", "text");
 input.setAttribute("palceholder", "Add your Last Name");
+input.setAttribute("id", "LastName");
 
 td.appendChild(input);
 tr.appendChild(td);
@@ -58,7 +60,6 @@ input = document.createElement("input");
 input.setAttribute("type", "radio");
 input.setAttribute("name", "Gender");
 input.setAttribute("id", "Male");
-
 td.appendChild(input);
 
 label = document.createElement("label");
@@ -71,7 +72,6 @@ input = document.createElement("input");
 input.setAttribute("type", "radio");
 input.setAttribute("name", "Gender");
 input.setAttribute("id", "Female");
-
 td.appendChild(input);
 
 label = document.createElement("label");
@@ -83,8 +83,7 @@ tr.appendChild(td);
 input = document.createElement("input");
 input.setAttribute("type", "radio");
 input.setAttribute("name", "NoResponse");
-input.setAttribute("id", "Male");
-
+input.setAttribute("id", "NoResponse");
 td.appendChild(input);
 
 label = document.createElement("label");
@@ -108,6 +107,7 @@ input = document.createElement("input");
 input.setAttribute("id", "Email");
 input.setAttribute("type", "email");
 input.setAttribute("placeholder", "Add your Email Address");
+input.setAttribute("id", "Email");
 td.appendChild(input);
 tr.appendChild(td);
 tbody.appendChild(tr);
@@ -141,6 +141,48 @@ td.setAttribute("colspan", "4");
 
 var button = document.createElement("button");
 button.innerHTML = "Update User Information";
+
+button.onclick = function () {
+    var FirstName = document.getElementById("FirstName");
+    var LastName = document.getElementById("LastName");
+    var Name = FirstName.value + " " + LastName.value;
+
+    var MaleGender = document.getElementById("Male");
+    var FemaleGender = document.getElementById("Female");
+    var NoResponseGender = document.getElementById("NoResponse");
+
+    var Gender = null;
+
+    if (MaleGender.checked) {
+        Gender = "Male";
+    } else if (FemaleGender.checked) {
+        Gender = "Female";
+    } else {
+        Gender = "NoResponse";
+    }
+
+    var Email = document.getElementById("Email");
+    var Country = document.getElementById("Country");
+    var user = {
+        Name: Name,
+        Gender: Gender,
+        Email: Email.value,
+        Country: Country.value
+    };
+
+
+    fetch('/Home/RegisterUser', {
+        method: 'POST',
+        cache: 'no-cache',
+        headers: {
+            'Content-Type': 'application/json; charset=UTF-8'
+        },
+        body: JSON.stringify(user)
+    }).then(response => response.text())
+        .then(data => alert(data));
+}
+
+
 
 td.appendChild(button);
 tr.appendChild(td);
